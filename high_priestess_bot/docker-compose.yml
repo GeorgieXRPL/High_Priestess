@@ -1,0 +1,79 @@
+version: '3.8'
+
+services:
+  # High Priestess Bot
+  high-priestess-bot:
+    build: .
+    container_name: high-priestess-oracle
+    restart: unless-stopped
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+      - redis
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - priestess-network
+    environment:
+      - DATABASE_URL=postgresql://priestess:mystical_password@postgres:5432/high_priestess
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: high-priestess-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: high_priestess
+      POSTGRES_USER: priestess
+      POSTGRES_PASSWORD: mystical_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    networks:
+      - priestess-network
+
+  # Redis for caching and rate limiting
+  redis:
+    image: redis:7-alpine
+    container_name: high-priestess-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes --requirepass mystical_redis_password
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    networks:
+      - priestess-network
+
+  # Optional: Web dashboard (FastAPI)
+  web-dashboard:
+    build: .
+    container_name: high-priestess-web
+    restart: unless-stopped
+    command: uvicorn bot:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - priestess-network
+    environment:
+      - DATABASE_URL=postgresql://priestess:mystical_password@postgres:5432/high_priestess
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  priestess-network:
+    driver: bridge
