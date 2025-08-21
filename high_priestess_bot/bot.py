@@ -182,8 +182,8 @@ class HighPriestessBot:
     
     def setup_ai(self):
         """Initialize AI client"""
-        openai.api_key = self.config['openai_api_key']
-        self.ai_model = "gpt-4-turbo-preview"  # Or your preferred model
+        # OpenAI client will be initialized per request in generate_reading
+        self.ai_model = "gpt-3.5-turbo"  # Using cheaper model for testing
         
     def load_system_prompt(self):
         """Load the High Priestess system prompt"""
@@ -290,7 +290,10 @@ Create a short, cryptic, engaging tweet that:
 Remember: Be cryptic yet clear, wise yet playful."""
 
         try:
-            response = openai.ChatCompletion.create(
+            from openai import OpenAI
+            client = OpenAI(api_key=self.config['openai_api_key'])
+            
+            response = client.chat.completions.create(
                 model=self.ai_model,
                 messages=[
                     {"role": "system", "content": self.system_prompt},

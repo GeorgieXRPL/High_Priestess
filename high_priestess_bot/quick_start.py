@@ -97,11 +97,14 @@ async def test_twitter_connection():
         from bot import HighPriestessBot
         
         bot = HighPriestessBot()
-        user = bot.twitter_client.get_me()
+        user = bot.twitter_client.get_me(user_fields=['public_metrics'])
         
         if user and user.data:
             print(f"✅ Connected to Twitter as @{user.data.username}")
-            print(f"   Followers: {user.data.public_metrics.get('followers_count', 'Unknown')}")
+            if hasattr(user.data, 'public_metrics') and user.data.public_metrics:
+                print(f"   Followers: {user.data.public_metrics.get('followers_count', 'Unknown')}")
+            else:
+                print(f"   Account verified and accessible")
             return True
         else:
             print("❌ Twitter connection failed - no user data")

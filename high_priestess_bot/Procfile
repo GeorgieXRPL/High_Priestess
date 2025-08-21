@@ -1,0 +1,2 @@
+web: python production_bot.py web
+worker: python production_bot.py
