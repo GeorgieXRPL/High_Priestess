@@ -1,0 +1,312 @@
+{
+  "major_arcana": {
+    "0": {
+      "name": "The Fool",
+      "crypto_metaphor": "New investor entering crypto, first token purchase, launching new protocol, YOLO trades",
+      "keywords": ["beginnings", "innocence", "risk", "leap of faith"],
+      "bull_market": "Fresh capital entering, retail FOMO beginning",
+      "bear_market": "Catching falling knives, buying the dip too early",
+      "mystical_phrases": [
+        "The journey of a thousand gains begins with a single trade",
+        "Innocence and wisdom dance at the edge of the blockchain",
+        "Every expert was once a fool who dared to try"
+      ]
+    },
+    "1": {
+      "name": "The Magician",
+      "crypto_metaphor": "Smart contract developer, DeFi wizard, utilizing all tools and platforms",
+      "keywords": ["manifestation", "skill", "power", "action"],
+      "bull_market": "Leveraging positions, yield farming mastery",
+      "bear_market": "Building in the bear, creating new protocols",
+      "mystical_phrases": [
+        "As above in the cloud, so below on-chain",
+        "All elements align when the coder becomes the code",
+        "Power flows through those who understand the protocol"
+      ]
+    },
+    "2": {
+      "name": "The High Priestess",
+      "crypto_metaphor": "Hidden knowledge, insider information, understanding market psychology, intuitive trading",
+      "keywords": ["intuition", "mystery", "subconscious", "secrets"],
+      "bull_market": "Knowing when to take profits, sensing the top",
+      "bear_market": "Accumulating in silence, patient wisdom",
+      "mystical_phrases": [
+        "The blockchain remembers what humans forget",
+        "Between the pump and dump lies infinite wisdom",
+        "She who holds the private keys holds the power"
+      ]
+    },
+    "3": {
+      "name": "The Empress",
+      "crypto_metaphor": "Abundant portfolios, fertile investment ground, passive income, yield generation",
+      "keywords": ["abundance", "nurturing", "creation", "growth"],
+      "bull_market": "Portfolio blooming, everything pumping",
+      "bear_market": "Nurturing positions for future growth",
+      "mystical_phrases": [
+        "Abundance flows to those who plant in bear markets",
+        "The mother of all bull runs gestates in darkness",
+        "Your seeds of investment bloom in divine timing"
+      ]
+    },
+    "4": {
+      "name": "The Emperor",
+      "crypto_metaphor": "Bitcoin dominance, established protocols, regulatory framework, institutional investment",
+      "keywords": ["authority", "structure", "control", "stability"],
+      "bull_market": "Blue chip dominance, institutional FOMO",
+      "bear_market": "Flight to quality, BTC maximalism",
+      "mystical_phrases": [
+        "The throne of dominance shifts but never falls",
+        "Structure provides freedom for the wise investor",
+        "Even emperors began as anonymous founders"
+      ]
+    },
+    "5": {
+      "name": "The Hierophant",
+      "crypto_metaphor": "Traditional finance meeting crypto, education, following established strategies",
+      "keywords": ["tradition", "conformity", "education", "beliefs"],
+      "bull_market": "Following influencers, mainstream adoption",
+      "bear_market": "Returning to fundamentals, learning from history",
+      "mystical_phrases": [
+        "Ancient wisdom flows through new protocols",
+        "The teacher appears when the trader is ready",
+        "Sacred knowledge hides in whitepapers"
+      ]
+    },
+    "6": {
+      "name": "The Lovers",
+      "crypto_metaphor": "Choosing between tokens, partnership formations, community bonds, DEX pairs",
+      "keywords": ["choices", "relationships", "values", "alignment"],
+      "bull_market": "FOMO vs HODL decisions, portfolio balancing",
+      "bear_market": "Choosing what to keep, what to cut",
+      "mystical_phrases": [
+        "Two tokens diverge, but only one leads home",
+        "The heart knows what charts cannot show",
+        "Perfect pairs create impermanent gains"
+      ]
+    },
+    "7": {
+      "name": "The Chariot",
+      "crypto_metaphor": "Momentum trading, riding trends, controlled aggression in markets",
+      "keywords": ["control", "willpower", "victory", "determination"],
+      "bull_market": "Riding the pump, perfect timing",
+      "bear_market": "Navigating volatility with skill",
+      "mystical_phrases": [
+        "Harness the wild horses of volatility",
+        "Victory belongs to those who steer through chaos",
+        "The chariot moves only when opposing forces unite"
+      ]
+    },
+    "8": {
+      "name": "Strength",
+      "crypto_metaphor": "Diamond hands, emotional control during volatility, patience in markets",
+      "keywords": ["courage", "patience", "control", "compassion"],
+      "bull_market": "Resisting FOMO, taking profits wisely",
+      "bear_market": "HODLing through the storm, conviction",
+      "mystical_phrases": [
+        "True strength is holding when others fold",
+        "The lion of volatility bows to patient hands",
+        "Gentle persistence melts diamond resistance"
+      ]
+    },
+    "9": {
+      "name": "The Hermit",
+      "crypto_metaphor": "DYOR, solo research, finding alpha alone, bear market building",
+      "keywords": ["introspection", "searching", "guidance", "solitude"],
+      "bull_market": "Stepping back from hype, seeking truth",
+      "bear_market": "Deep research, finding hidden gems",
+      "mystical_phrases": [
+        "In solitude, the alpha whispers clearly",
+        "The hermit's lantern illuminates hidden protocols",
+        "Withdraw from noise to hear the signal"
+      ]
+    },
+    "10": {
+      "name": "Wheel of Fortune",
+      "crypto_metaphor": "Market cycles, bull and bear transitions, sudden pumps or dumps",
+      "keywords": ["cycles", "destiny", "turning point", "luck"],
+      "bull_market": "Everything pumping, lucky timing",
+      "bear_market": "The wheel turns, patience for next cycle",
+      "mystical_phrases": [
+        "The wheel turns: bears become bulls, bulls become bears",
+        "Fortune favors those who understand cycles",
+        "What drops must rise, what rises must drop"
+      ]
+    },
+    "11": {
+      "name": "Justice",
+      "crypto_metaphor": "Smart contract execution, regulatory decisions, karma in markets, fair launch",
+      "keywords": ["fairness", "truth", "law", "balance"],
+      "bull_market": "Regulations bringing legitimacy",
+      "bear_market": "Scammers getting exposed, justice served",
+      "mystical_phrases": [
+        "The blockchain never forgets, never forgives",
+        "Every transaction balances in the cosmic ledger",
+        "Justice is code executing without emotion"
+      ]
+    },
+    "12": {
+      "name": "The Hanged Man",
+      "crypto_metaphor": "Waiting for entry, different perspective on markets, sacrifice for gains",
+      "keywords": ["suspension", "letting go", "new perspective", "sacrifice"],
+      "bull_market": "Waiting for pullback, patient entry",
+      "bear_market": "Accepting losses, new viewpoint",
+      "mystical_phrases": [
+        "Suspended between pump and dump, wisdom emerges",
+        "Sometimes you must hang to see clearly",
+        "Sacrifice the quick gain for lasting wealth"
+      ]
+    },
+    "13": {
+      "name": "Death",
+      "crypto_metaphor": "Protocol deaths, end of bull market, transformation of the space, rebirth",
+      "keywords": ["endings", "transformation", "transition", "renewal"],
+      "bull_market": "Taking profits, cycle ending",
+      "bear_market": "Capitulation, making space for new",
+      "mystical_phrases": [
+        "Every rug pull fertilizes tomorrow's innovation",
+        "Death of one protocol births another",
+        "In crypto winter, spring seeds are planted"
+      ]
+    },
+    "14": {
+      "name": "Temperance",
+      "crypto_metaphor": "Portfolio balance, DCA strategy, risk management, moderation",
+      "keywords": ["balance", "moderation", "patience", "harmony"],
+      "bull_market": "Balanced taking profits, not greedy",
+      "bear_market": "Steady accumulation, no panic",
+      "mystical_phrases": [
+        "Balance the FOMO with the FUD",
+        "The middle path leads to sustainable gains",
+        "Mix patience with action, caution with courage"
+      ]
+    },
+    "15": {
+      "name": "The Devil",
+      "crypto_metaphor": "Greed, addiction to charts, leverage trading, scams and rugpulls",
+      "keywords": ["bondage", "materialism", "temptation", "addiction"],
+      "bull_market": "Greed at the top, overleveraging",
+      "bear_market": "Desperation trades, falling for scams",
+      "mystical_phrases": [
+        "The chains you forge link you to liquidation",
+        "Greed whispers sweetly before the rug pulls",
+        "Your demons live in the leverage slider"
+      ]
+    },
+    "16": {
+      "name": "The Tower",
+      "crypto_metaphor": "Market crash, protocol hack, sudden liquidation, black swan event",
+      "keywords": ["disaster", "upheaval", "revelation", "awakening"],
+      "bull_market": "Sudden crash from ATH, reality check",
+      "bear_market": "Capitulation event, final bottom",
+      "mystical_phrases": [
+        "Lightning strikes the highest market caps first",
+        "From the rubble of crashes, innovation rises",
+        "The tower falls so stronger foundations can be built"
+      ]
+    },
+    "17": {
+      "name": "The Star",
+      "crypto_metaphor": "Hope in bear market, promising new project, recovery beginning",
+      "keywords": ["hope", "inspiration", "renewal", "healing"],
+      "bull_market": "Optimism justified, dreams manifesting",
+      "bear_market": "First green candles, hope returning",
+      "mystical_phrases": [
+        "Stars shine brightest in the darkest bear markets",
+        "Hope is the alpha that charts cannot measure",
+        "Follow the star to your destined protocol"
+      ]
+    },
+    "18": {
+      "name": "The Moon",
+      "crypto_metaphor": "Uncertainty, FUD, hidden information, manipulation, illusions",
+      "keywords": ["illusion", "fear", "subconscious", "deception"],
+      "bull_market": "Hidden bearish divergence, false signals",
+      "bear_market": "Maximum FUD, darkest before dawn",
+      "mystical_phrases": [
+        "Not all moons are real, some are merely shadows",
+        "In the moon's light, shitcoins look like gold",
+        "Fear and greed dance under the crypto moon"
+      ]
+    },
+    "19": {
+      "name": "The Sun",
+      "crypto_metaphor": "Bull market peak, maximum euphoria, success and profits",
+      "keywords": ["success", "vitality", "joy", "enlightenment"],
+      "bull_market": "Everything pumping, peak euphoria",
+      "bear_market": "False dawn, temporary relief rally",
+      "mystical_phrases": [
+        "The sun shines on all portfolios equally",
+        "In the sun's light, even shitcoins sparkle",
+        "Bask in gains but remember: suns set"
+      ]
+    },
+    "20": {
+      "name": "Judgment",
+      "crypto_metaphor": "Reckoning with past trades, tax season, portfolio evaluation",
+      "keywords": ["reflection", "reckoning", "awakening", "renewal"],
+      "bull_market": "Evaluating gains, taking profits",
+      "bear_market": "Learning from mistakes, rebirth",
+      "mystical_phrases": [
+        "The blockchain judges without mercy or prejudice",
+        "Every trade echoes in eternity's ledger",
+        "Rise from the ashes of your liquidations"
+      ]
+    },
+    "21": {
+      "name": "The World",
+      "crypto_metaphor": "Complete market cycle, achieving goals, full adoption, integration",
+      "keywords": ["completion", "accomplishment", "fulfillment", "wholeness"],
+      "bull_market": "Retirement achieved, goals met",
+      "bear_market": "Cycle complete, ready for next",
+      "mystical_phrases": [
+        "The world is your DEX, trade wisely",
+        "Full circles bring you back to better beginnings",
+        "Completion is just another word for new genesis"
+      ]
+    }
+  },
+  "suits": {
+    "wands": {
+      "element": "fire",
+      "crypto_aspect": "Innovation, new projects, entrepreneurship, action",
+      "market_meaning": "Startup tokens, new protocols, creative solutions"
+    },
+    "cups": {
+      "element": "water",
+      "crypto_aspect": "Community, emotions, social tokens, relationships",
+      "market_meaning": "Community coins, social sentiment, emotional trading"
+    },
+    "swords": {
+      "element": "air",
+      "crypto_aspect": "Analysis, conflict, competition, communication",
+      "market_meaning": "Technical analysis, FUD/shill wars, market commentary"
+    },
+    "pentacles": {
+      "element": "earth",
+      "crypto_aspect": "Wealth, material gains, stability, long-term value",
+      "market_meaning": "Stablecoins, blue chips, store of value, actual profits"
+    }
+  },
+  "reading_contexts": {
+    "love": {
+      "focus_cards": ["The Lovers", "Two of Cups", "The Empress", "The Star"],
+      "crypto_twist": "Finding your soulmate token, partnership protocols"
+    },
+    "money": {
+      "focus_cards": ["Ace of Pentacles", "The Empress", "Nine of Pentacles", "The Sun"],
+      "crypto_twist": "Direct correlation to portfolio performance"
+    },
+    "career": {
+      "focus_cards": ["The Emperor", "Eight of Pentacles", "The Magician", "Three of Pentacles"],
+      "crypto_twist": "Building in Web3, protocol development"
+    },
+    "spiritual": {
+      "focus_cards": ["The High Priestess", "The Hermit", "The Star", "The Moon"],
+      "crypto_twist": "Understanding the deeper meaning of decentralization"
+    },
+    "timing": {
+      "focus_cards": ["Wheel of Fortune", "The Hanged Man", "Eight of Wands", "Death"],
+      "crypto_twist": "Market timing, cycle awareness"
+    }
+  }
+}
